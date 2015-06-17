@@ -36,9 +36,16 @@ class Rectangle {
             $preis = ceil($this->nsd * $breite ) * 3.99 * 1.21;
             return "der prijs is $preis";
         elseif ($typ == 'luxe' && ENV_LAND == 'holland'):
+            //variablen im code eingesetz
             $preis = ceil($this->nsd * $breite ) * 5.99 * 1.21;
             return "der prijs is  $preis, Luxe parkett was een goede keuze";
         endif;
     }
-
+    //muss für neue typen angepasst werden
+    //if bedingungen kompliziert
+    //2 if hat keine klammern
+    //globale konstanten -macht es schwer testbar
+    // -get partkettpreis nicht eindeutig und gibt text wieder
+    //copy & pased
+    //keine code styles
 }

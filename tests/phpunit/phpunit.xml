@@ -5,7 +5,7 @@
          verbose="true"
          bootstrap="bootstrap.php">
     <testsuites>
-        <testsuite name="LinkCrf">
+        <testsuite name="Example">
             <directory suffix="Test.php">*</directory>
         </testsuite>
     </testsuites>
