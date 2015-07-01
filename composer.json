@@ -4,13 +4,12 @@
     "type": "project",
     "autoload": {
         "psr-0": {
-            "CleanCode": "src/"
-          "CleanCode\Tests": "tests/phpunit"
+            "CleanCode": "src/",
+            "CleanCode\\Tests": "tests/phpunit"
         }
     },
     "require": {
         "php": ">=5.3.3",
-
         "squizlabs/php_codesniffer": "2.3.*",
         "phpmd/phpmd": "2.1.*",
         "sebastian/phpcpd": "2.0.*",
@@ -24,13 +23,5 @@
     },
     "config": {
         "bin-dir": "bin"
-    },
-    "extra": {
-        "symfony-app-dir": "app",
-        "symfony-web-dir": "web",
-        "symfony-assets-install": "symlink",
-        "incenteev-parameters": {
-            "file": "app/config/parameters.yml"
-        }
     }
 }

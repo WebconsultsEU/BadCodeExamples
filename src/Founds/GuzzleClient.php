@@ -387,7 +387,7 @@ class Client implements ClientInterface
 
         return $request;
     }
-
+    //@todo
     private function invalidBody()
     {
         throw new \InvalidArgumentException('Passing in the "body" request '
